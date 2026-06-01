@@ -27,10 +27,19 @@ h1 {
 
 .social-links {
     display: flex;
-    gap: 20px;
-    text-align: center;
+    gap: 16px;
+    margin-top: 1rem;
 }
 
+.social-links a {
+
+    color: inherir;
+}
+
+.social-links a:hover {
+
+    opacity: 0.7;
+}
 a {
     color: black;
    font-weight: 600;
