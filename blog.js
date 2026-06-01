@@ -4,7 +4,7 @@ const post = {
     title: 'New Territory: Javascript',
     date: '6-1-26',
     tag: 'Project',
-    body: ` The whole purpose of this expense tracker is to allow myself to see a visual representation by way of a reactive line graph.
+    body: `The whole purpose of this expense tracker is to allow myself to see a visual representation by way of a reactive line graph.
 
     This being my first actual project, I plan to take things very slow. Personally, I dont want to rush to push commits for the hell of it.
 
