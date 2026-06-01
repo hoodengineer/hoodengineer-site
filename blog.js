@@ -22,3 +22,16 @@ const posts = [ {
 
 },
 ]
+
+const postList = document.getElementById('post-list');
+
+posts.forEach(post => {
+  const div = document.createElement('div');
+  div.classList.add('post');
+  div.innerHTML = `
+    <h2>${post.title}</h2>
+    <p class="meta">${post.date} · ${post.tag}</p>
+    <p>${post.body}</p>
+  `;
+  postList.appendChild(div);
+});
