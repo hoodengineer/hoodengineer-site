@@ -29,11 +29,12 @@ h1 {
     display: flex;
     gap: 16px;
     margin-top: 1rem;
+    color: black;
 }
 
 .social-links a {
 
-    color: inherir;
+    color: inherit;
 }
 
 .social-links a:hover {
