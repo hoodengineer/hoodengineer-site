@@ -1,6 +1,6 @@
 const blogTitle = "Thoughts"
 
-const post = {
+const posts = [ { 
     title: 'New Territory: Javascript',
     date: '6-1-26',
     tag: 'Project',
@@ -20,5 +20,5 @@ const post = {
     
     Thanks for reading my g's!`
 
-
-};
+},
+]
