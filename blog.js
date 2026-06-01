@@ -1,6 +1,27 @@
 const blogTitle = "Thoughts"
 
-const posts = [ { 
+const posts = [ 
+    {
+    title:`Expense-tracker`,
+    date:`6-1-26`,
+    tag:`Javascript`,
+    body:`Currently setting up the repository for this project. I want the design to be simple. Some of the expense
+    
+    trackers I've seen have the usual section for recent transactions , breakdown - with a circle graph, and etc.
+    
+    The purpose of this tracker is to simplify the visual data, and the process.
+    
+    input description of expense -> input expense ammount in format 0.00 -> select drop-down menu of category -> press Add button.
+    
+    After this process is complete, a data point is added to a line graph. It will merely show a increase in expenses /, a decrease \. 
+    
+    I have no idea ho to use javascript, or any other language to create this, but I'll use claude to teach me without actually writing any code for me.
+    
+    - I'll check in later.`,
+
+    },
+    
+    { 
     title: 'New Territory: Javascript',
     date: '6-1-26',
     tag: 'Project',
